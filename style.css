@@ -41,3 +41,55 @@ header h1{
    color: azure;
    font-size: 25pt;
 }
+
+section{
+
+    height:400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section div{
+    align-items: center;
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 400px;
+    height: 60%;
+    
+}
+
+section div input::placeholder{
+    color: aquamarine;
+    font-size: 10pt;
+
+}
+
+section div input:focus{
+    color: aquamarine;
+}
+
+section div input{
+    background-color: azure;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+section div button{
+    border:none;
+    background-color: aquamarine;
+    color: white;
+    cursor: pointer;
+}
+
+section div h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(27, 216, 153);
+}
+
